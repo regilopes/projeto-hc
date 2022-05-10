@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamma Academy</title>
+
+    <!-- Criando estilos internos na nossa pagina em CSS -->
+    <link rel="stylesheet" href="../css/estilos.css" >
+</head>
+<body>
+    <h1>Super formulário de cadastro de alunos x da Gamma Academy</h1>
+    <!--
+        <h2>Super formulário de cadastro de alunos x da Gamma Academy</h2>
+        <h3>Super formulário de cadastro de alunos x da Gamma Academy</h3>
+        <h4>Super formulário de cadastro de alunos x da Gamma Academy</h4>
+        <h5>Super formulário de cadastro de alunos x da Gamma Academy</h5>
+        <h6>Super formulário de cadastro de alunos x da Gamma Academy</h6>-->
+    
+        <h1 class="cab_especial"> Conheça todos os nossos cursos</h1>
+
+        <!-- Criando formulario -->
+        <form id="cadastro" method="post">
+            <label>Nome do aluno: </label>
+
+            <input type="text" name="nome_aluno" class="campo_nome" placeholder="Digite o seu nome" 
+            required maxlength="5" oninvalid="this.setCustomValidity('Você deve preencher esse campo obrigatório')"onchange="try{setCustomValidity('')}catch(e){}"><br><br>
+
+            <label>Email do aluno: </label>
+
+            <input type="email" name="email_aluno" class="campo_email" placeholder="Digite o seu email"
+             required>
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h1>Sou um cabeçalho perdido</h1>
+</body>
+</html>
